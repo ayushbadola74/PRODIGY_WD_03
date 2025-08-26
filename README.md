@@ -1,51 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Task-03 • Tic-Tac-Toe — Prodigy Infotech</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main class="app" id="app">
-    <header>
-      <div class="brand">
-        <div class="logo">XO</div>
-        <div>
-          <h1>Task-03: Tic-Tac-Toe</h1>
-          <div class="sub">Prodigy Infotech • HTML • CSS • JavaScript</div>
-        </div>
-      </div>
-      <div class="controls">
-        <label>
-          <select id="mode">
-            <option value="pvp">Player vs Player</option>
-            <option value="ai">Player vs AI (Unbeatable)</option>
-          </select>
-        </label>
-        <button class="btn-ghost" id="swap">Swap First Turn</button>
-        <button class="btn-primary" id="new">New Game</button>
-        <button class="btn-ghost" id="reset">Reset Scores</button>
-      </div>
-    </header>
+# 🎮 Task-03: Tic-Tac-Toe  
 
-    <div class="statusbar">
-      <div class="badge" id="status">X to move.</div>
-    </div>
+A simple and fun Tic-Tac-Toe game built with **HTML, CSS, and JavaScript**.  
+This project was created as part of my internship at **Prodigy InfoTech**.  
 
-    <section class="grid" id="grid" aria-label="Tic Tac Toe board"></section>
+---
 
-    <div class="panel">
-      <div class="score">
-        <div class="chip x">X Wins: <span id="sx">0</span></div>
-        <div class="chip o">O Wins: <span id="so">0</span></div>
-        <div class="chip d">Draws: <span id="sd">0</span></div>
-      </div>
-    </div>
+## 🚀 Live Demo  
+🔗 [Play the game here](https://ayushbadola74.github.io/PRODIGY_WD_03/)  
 
-    <footer>Tip: Switch to “Player vs AI” and try to beat it 😉</footer>
-  </main>
+---
 
-  <script src="script.js"></script>
-</body>
-</html>
+## ✨ Features  
+- 🎯 Player vs Player Mode  
+- 🤖 Player vs AI (Unbeatable using Minimax Algorithm)  
+- 🔄 Swap First Turn  
+- 🆕 Start New Game  
+- 🧹 Reset Scores  
+
+---
+
+## 📸 Screenshots  
+
+### 🕹️ Game Board
+![Game Board](./screenshot1.png)
+
+### 🏆 Game Over Modal
+![Game Over](./screenshot2.png)
+
+---
+
+## 🛠️ Tech Stack  
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (ES6+)**  
+
+---
+
+## 🙌 Credits  
+- Developed by **Ayush Badola**  
+
